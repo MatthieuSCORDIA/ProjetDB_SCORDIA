@@ -16,27 +16,27 @@ Le prompt utilisé:
 
 
 
-Tu travailles dans le domaine de la distribution de produits culturels et technologiques. Ton entreprise a comme activité de vendre des jeux vidéo neufs et d'occasion, des consoles de jeux, ainsi que des produits dérivés (figurines, vêtements, accessoires de collection). 
+Tu travailles dans le domaine de la distribution de produits culturels et technologiques. Ton entreprise a comme activité de vendre des jeux vidéo neufs et d'occasion, des consoles de jeux, ainsi que des produits dérivés (figurines, vêtements, accessoires de collection).
 
-C’est une entreprise comme Micromania-Zing. Les données sont collectées sur les clients et leurs cartes de fidélité, le catalogue de jeux et produits dérivés, les stocks par magasin, les ventes réalisées et les précommandes des nouveautés. 
+C’est une entreprise comme Micromania-Zing. Les données sont collectées sur les clients et leurs cartes de fidélité, le catalogue de jeux et produits dérivés, les stocks par magasin, les ventes réalisées et les précommandes des nouveautés.
 
-Inspire-toi du site web suivant : https://www.micromania.fr/. 
+Inspire-toi du site web suivant : https://www.micromania.fr/.
 
-Ton entreprise veut appliquer MERISE pour concevoir un système d'information. 
+Ton entreprise veut appliquer MERISE pour concevoir un système d'information.
 
-Tu es chargé de la partie analyse, c’est-à-dire de collecter les besoins auprès de l’entreprise. 
+Tu es chargé de la partie analyse, c’est-à-dire de collecter les besoins auprès de l’entreprise.
 
-Elle a fait appel à un étudiant en ingénierie informatique pour réaliser ce projet, tu dois lui fournir les informations nécessaires pour qu’il applique ensuite lui-même les étapes suivantes de conception et développement de la base de données. 
+Elle a fait appel à un étudiant en ingénierie informatique pour réaliser ce projet, tu dois lui fournir les informations nécessaires pour qu’il applique ensuite lui-même les étapes suivantes de conception et développement de la base de données.
 
-D’abord, établis les règles de gestions des données de ton entreprise, sous la forme d'une liste à puce. 
+D’abord, établis les règles de gestions des données de ton entreprise, sous la forme d'une liste à puce.
 
-Elle doit correspondre aux informations que fournit quelqu’un qui connaît le fonctionnement de l’entreprise, mais pas comment se construit un système d’information. 
+Elle doit correspondre aux informations que fournit quelqu’un qui connaît le fonctionnement de l’entreprise, mais pas comment se construit un système d’information.
 
-Ensuite, à partir de ces règles, fournis un dictionnaire de données brutes avec les colonnes suivantes, regroupées dans un tableau : signification de la donnée, type, taille en nombre de caractères ou de chiffres. 
+Ensuite, à partir de ces règles, fournis un dictionnaire de données brutes avec les colonnes suivantes, regroupées dans un tableau : signification de la donnée, type, taille en nombre de caractères ou de chiffres.
 
-Il doit y avoir entre 25 et 35 données. Il sert à fournir des informations supplémentaires sur chaque donnée (taille et type) mais sans a priori sur comment les données vont être modélisées ensuite. 
+Il doit y avoir entre 25 et 35 données. Il sert à fournir des informations supplémentaires sur chaque donnée (taille et type) mais sans a priori sur comment les données vont être modélisées ensuite.
 
-Fournis donc les règles de gestion et le dictionnaire de données. 
+Fournis donc les règles de gestion et le dictionnaire de données.
 
 
 
@@ -165,4 +165,12 @@ Montant de l'acompte versé,"Décimal (9,2)",11
 Date de la précommande,Date,10
 
 
+
+
+
+Modèle Conceptuel de Données (MCD)
+
+
+
+!\[MCD](MCD.png)
 
