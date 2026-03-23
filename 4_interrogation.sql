@@ -80,4 +80,4 @@ WHERE p.Libelle_Produit = 'Elden Ring';
 SELECT p1.Libelle_Produit AS Produit_Principal, p2.Libelle_Produit AS Produit_Recommande
 FROM RECOMMANDER r
 JOIN PRODUIT p1 ON r.SKU_Produit = p1.SKU_Produit
-JOIN PRODUIT p2 ON
+JOIN PRODUIT p2 ON r.SKU_Produit_1 = p2.SKU_Produit;

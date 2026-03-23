@@ -29,7 +29,11 @@ INSERT INTO CARTE_FIDELITE (Num_Carte_Fidelite, Point_Cumules, Statu_Carte, Emai
 ('FID-006', 30, 'Classic', 'c.roux@email.com');
 
 -- PRODUIT (Ajout de la catégorie correcte et de la Taille à la fin)
+INSERT INTO PRODUIT VALUES ('CON-001', 0x99001, 'PlayStation 5 Pro', 'Console ultra haute performance', 500.00, 'Console', 'PS5', 'Neuf', 'Sony', '2024-11-07', 'N/A');
+
+
 -- Jeux
+INSERT INTO PRODUIT VALUES ('JEU-2026', 0x88001, 'GTA VI', 'Le jeu le plus attendu', 80.00, 'Jeu', 'PS5', 'Neuf', 'Rockstar', '2026-04-15', 'N/A');
 INSERT INTO PRODUIT VALUES ('PS5-001', 0x37001, 'Elden Ring', 'Action-RPG', 59.99, 'Jeu', 'PS5', 'Neuf', 'Bandai Namco', '2022-02-25', 'N/A');
 INSERT INTO PRODUIT VALUES ('PS5-002', 0x37002, 'Spider-Man 2', 'Action-Aventure', 79.99, 'Jeu', 'PS5', 'Neuf', 'Sony', '2023-10-20', 'N/A');
 INSERT INTO PRODUIT VALUES ('PS5-003', 0x37003, 'Demon Souls', 'Action-RPG hardcore', 39.99, 'Jeu', 'PS5', 'Occasion', 'Sony', '2020-11-12', 'N/A');
@@ -61,3 +65,12 @@ INSERT INTO ACHETER VALUES ('m.durand@email.com', 'SWI-001', 1, 'T-1002', '2024-
 
 INSERT INTO PRECOMMANDE (Email_Client, Date_Precommande, Montant_Acompte, SKU_Produit) VALUES 
 ('j.masson@email.com', '2024-03-20 10:00:00', 10.00, 'FIG-005');
+
+-- On s'assure que FIG-003 et SWI-003 existent bien
+INSERT INTO PRODUIT VALUES ('FIG-003', 0x57003, 'Funko Pop Kratos', 'Figurine vinyle', 15.00, 'Figurine', 'N/A', 'Neuf', 'Funko', '2022-11-01', 'N/A');
+INSERT INTO PRODUIT VALUES ('SWI-003', 0x47003, 'Metroid Dread', 'Action-Exploration', 49.99, 'Jeu', 'Switch', 'Neuf', 'Nintendo', '2021-10-08', 'N/A');
+
+INSERT INTO RECOMMANDER (SKU_Produit, SKU_Produit_1) VALUES 
+('PS5-001', 'PS5-003'), 
+('SWI-001', 'SWI-003'), 
+('PS5-002', 'FIG-003');

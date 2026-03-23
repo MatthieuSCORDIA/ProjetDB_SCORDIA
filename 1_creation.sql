@@ -12,7 +12,7 @@ CREATE TABLE PRODUIT(
    Code_Barre_EAN VARBINARY(13),
    Libelle_Produit VARCHAR(150),
    Description_Detaillee VARCHAR(500),
-   Prix_de_vente_TTC DECIMAL(4,2),
+   Prix_de_vente_TTC DECIMAL(6,2),
    Categorie VARCHAR(30),
    Plateforme VARCHAR(20),
    Etat_Produit VARCHAR(10),
@@ -42,7 +42,7 @@ CREATE TABLE PRECOMMANDE(
 
 CREATE TABLE CARTE_FIDELITE(
    Num_Carte_Fidelite VARCHAR(20),
-   Point_Cumules TINYINT,
+   Point_Cumules INT,
    Statu_Carte VARCHAR(15),
    Email_Client VARCHAR(50) NOT NULL,
    PRIMARY KEY(Num_Carte_Fidelite),
