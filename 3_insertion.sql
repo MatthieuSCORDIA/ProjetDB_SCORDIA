@@ -41,6 +41,7 @@ INSERT INTO PRODUIT VALUES ('PS5-004', 0x37004, 'Ratchet & Clank', 'Plateforme',
 INSERT INTO PRODUIT VALUES ('PS5-005', 0x37005, 'Final Fantasy XVI', 'RPG', 69.99, 'Jeu', 'PS5', 'Neuf', 'Square Enix', '2023-06-22', 'N/A');
 INSERT INTO PRODUIT VALUES ('SWI-001', 0x47001, 'Zelda: TotK', 'Aventure épique', 54.99, 'Jeu', 'Switch', 'Neuf', 'Nintendo', '2023-05-12', 'N/A');
 INSERT INTO PRODUIT VALUES ('SWI-002', 0x47002, 'Mario Odyssey', 'Plateforme 3D', 44.99, 'Jeu', 'Switch', 'Occasion', 'Nintendo', '2017-10-27', 'N/A');
+INSERT INTO PRODUIT VALUES ('SWI-003', 0x47003, 'Metroid Dread', 'Action-Exploration', 49.99, 'Jeu', 'Switch', 'Neuf', 'Nintendo', '2021-10-08', 'N/A');
 
 -- Figurines (Catégorie 'Figurine')
 INSERT INTO PRODUIT VALUES ('FIG-001', 0x57001, 'Figurine Link', 'Statue PVC 25cm', 89.90, 'Figurine', 'N/A', 'Neuf', 'First 4 Figures', '2023-01-10', 'N/A');
@@ -66,9 +67,6 @@ INSERT INTO ACHETER VALUES ('m.durand@email.com', 'SWI-001', 1, 'T-1002', '2024-
 INSERT INTO PRECOMMANDE (Email_Client, Date_Precommande, Montant_Acompte, SKU_Produit) VALUES 
 ('j.masson@email.com', '2024-03-20 10:00:00', 10.00, 'FIG-005');
 
--- On s'assure que FIG-003 et SWI-003 existent bien
-INSERT INTO PRODUIT VALUES ('FIG-003', 0x57003, 'Funko Pop Kratos', 'Figurine vinyle', 15.00, 'Figurine', 'N/A', 'Neuf', 'Funko', '2022-11-01', 'N/A');
-INSERT INTO PRODUIT VALUES ('SWI-003', 0x47003, 'Metroid Dread', 'Action-Exploration', 49.99, 'Jeu', 'Switch', 'Neuf', 'Nintendo', '2021-10-08', 'N/A');
 
 INSERT INTO RECOMMANDER (SKU_Produit, SKU_Produit_1) VALUES 
 ('PS5-001', 'PS5-003'), 
